@@ -28,8 +28,11 @@ const App = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold text-center mb-8">📰 Latest News</h1>
+    <div className="container mx-auto p-4 ">
+      <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-8 bg-gray-400 p-9">
+        📰 Latest News
+      </h1>
+
       {loading ? (
         <p className="text-center">Loading news articles...</p>
       ) : (
